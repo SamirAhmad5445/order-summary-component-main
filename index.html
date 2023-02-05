@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Order summary card</title>
+    <!-- favicon link -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- google fants links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- the main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="grid | bg-body">
+    <div class="card | grid bg-card txt-primary ta-center rad-3">
+      <div class="card-image">
+        <img src="images/illustration-hero.svg" alt="illustration_hero" />
+      </div>
+      <div class="card-content | flow | pad-2">
+        <h2 class="txt-heading fw-black fs-large">Order Summary</h2>
+        <p class="pad-in-1">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="plan | flex | bg-plan pad-1 gap-2 rad-3">
+          <div class="plan-icon">
+            <img src="images/icon-music.svg" alt="" />
+          </div>
+          <div class="ta-left">
+            <p class="txt-heading fw-black">Annual Plan</p>
+            <p class="fs-small fw-bold">$59.99/year</p>
+          </div>
+          <button class="btn push-right" data-type="link">
+            <a href="#">Change</a>
+          </button>
+        </div>
+        <button class="btn">Proceed to Payment</button>
+        <button class="btn" data-type="simple">Cancel Order</button>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="mailto:samirahmad5445@gmail.com">Samir Ahmad</a>.
+    </div> -->
+  </body>
+</html>
