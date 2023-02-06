@@ -24,8 +24,8 @@ Welcome I am [Samir Ahmad](https://github.com/SamirAhmad5445) and this is a solu
 
 ### Links
 
-- Solution URL: [Go To The Github Repo](https://github.com/SamirAhmad5445/calculator-app-main)
-- Live Site URL: [Click Here for The Live Page](https://samirahmad5445.github.io/calculator-app-main/)
+- Solution URL: [Go To The Github Repo](https://github.com/SamirAhmad5445/order-summary-component-main)
+- Live Site URL: [Click Here for The Live Page](https://samirahmad5445.github.io/order-summary-component-main/)
 
 ## My Process
 

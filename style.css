@@ -29,7 +29,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--ff-main);
 }
 html,
 body {
@@ -39,7 +38,7 @@ body {
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100% 40%;
-  overflow: auto;
+  font-family: var(--ff-main);
   line-height: 1.6;
 }
 @media (max-width: 48em) {
